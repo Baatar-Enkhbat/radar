@@ -1,0 +1,39 @@
+.fancy-burger{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    border: 0;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.rectangle {
+    position: absolute;
+    height: 10px;
+    background: black;
+    border-radius: 4px;
+    transition: transform 0.65s;
+}
+
+.rectangle--small{
+    width: 50px;
+}
+
+.rectangle--top{
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+
+.rectangle--middle{
+    top: 50%;
+    left: 0;
+    width: 100px;
+    transform: translateY(-50%);
+}
+.rectangle--bottom{
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}

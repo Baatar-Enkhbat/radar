@@ -28,6 +28,10 @@ a:hover{
     margin-bottom: 4%;
 }
 
+.bl{
+    border-left: 2px solid #231815;
+}
+
 html {
     scrollbar-width: normal;
     scrollbar-color: #22e98f #fff;
@@ -143,8 +147,17 @@ html {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 5% 20%;
+    grid-gap: 5%;
+    padding: 5% 20%;
+    justify-content: center;
 }
+
+.mid-5 div{
+    padding: 10% 0;
+    margin-bottom: 10%;
+}
+
+
 
 .mid-6{
     position: relative;
