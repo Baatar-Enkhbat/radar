@@ -67,4 +67,11 @@ font-size: 1rem;
       grid-template-columns: auto;
       text-align: left;
     }
+    .container-contact p{
+      font-size: .8rem;
+        }
+      
+      .container-contact label{
+          font-size: .8rem;
+        }
   }
